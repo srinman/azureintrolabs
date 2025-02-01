@@ -1,0 +1,9 @@
+ {
+      "if": {
+        "field": "location",
+        "equals": "westus2"
+      },
+      "then": {
+        "effect": "deny"
+      }
+}
