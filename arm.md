@@ -83,7 +83,10 @@ az policy assignment delete --name "deny-westus2-assignment" --scope "/subscript
 
 ## Activity Log
 
+The Azure Monitor activity log is a platform log that provides insight into subscription-level events.   
+
 ```bash
+az monitor activity-log list-categories
 az monitor activity-log list --output table 
 az monitor activity-log list --start-time 2025-02-01 15:45:00 -o table   
 ```
